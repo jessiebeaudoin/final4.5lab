@@ -1,0 +1,11 @@
+---
+layout: base.njk
+title: Planetary Playing Cards
+---
+
+<div class="grid">
+  {% include 'sun.njk' %}
+  {% for planet in collections.planets %}
+    {% include 'planet.njk', planet: planet %}
+  {% endfor %}
+</div>
