@@ -1,8 +1,17 @@
 {
-  "devDependencies": {
-    "@11ty/eleventy": "^3.0.0"
+  "name": "4.5assignmentlab",
+  "version": "1.0.0",
+  "description": "Planetary Playing Cards - An Eleventy project",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "start": "npm run serve"
   },
   "dependencies": {
-    "@11ty/eleventy-upgrade-help": "^3.0.1"
-  }
+    "@11ty/eleventy": "^2.0.0"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
 }
